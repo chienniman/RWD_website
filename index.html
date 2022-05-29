@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>魔幻電競館</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>  
+    <div id="vue_index" class="container">
+        <div class="header">
+          <div class="bars">
+            <div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div class="search">
+          </div>
+          <div class="header-left d-flex">
+            <div class="logo">
+              <!-- <a href="https://www.flaticon.com/free-icons/shapes-and-symbols" title="shapes and symbols icons">Shapes and symbols icons created by rizal2109 - Flaticon</a> -->
+              <a href="index.html">
+                <img src="./pics/logo.png" alt="首頁logo" />
+              </a>
+            </div>
+            <div class="products-menu">
+              <ul class="d-flex">
+                <li>
+                  <a href="#">
+                    Extremely cool
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Gaming Pc
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Gaming Mobile
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    Platinum Xt 
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    E-Support
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-right">
+            <div class="multi-function-menu">
+              <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">
+                  <p class="all-micros">您可能感興趣的商品</p>
+                  <img
+                    class="angle-down"
+                    src="./pics/angle-down-solid.svg"
+                    alt="下拉式選單icon"
+                  />
+                </button>
+                <div id="myDropdown" class="dropdown-content">
+                  <ul>
+                    <li>
+                      <a class="span" href="#"><p>軟體</p></a>
+                      <a href="#">
+                        <p>Windows 應用程式</p>
+                      </a>
+                      <a href="#">
+                        <p>OneDrive</p>
+                      </a>
+                      <a href="#">
+                        <p>Outlook</p>
+                      </a>
+                      <a href="#">
+                        <p>Skype</p>
+                      </a>
+                      <a href="#">
+                        <p>OneNote</p>
+                      </a>
+                      <a href="#">
+                        <p>Microsoft Teams</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="span" href="#">
+                        <p>個人電腦與設備</p>
+                      </a>
+                      <a href="#">
+                        <p>選購xbox</p>
+                      </a>
+                      <a href="#">
+                        <p>電腦配件</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="span" href="#"><p>娛樂</p></a>
+                      <a href="#">
+                        <p>Xbox Game Pass Ultimate</p>
+                      </a>
+                      <a href="#">
+                        <p>Xbox Live Gold</p>
+                      </a>
+                      <a href="#">
+                        <p>Xbox 與遊戲</p>
+                      </a>
+                      <a href="#">
+                        <p>電腦遊戲</p>
+                      </a>
+                      <a href="#">
+                        <p>Windows 遊戲</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="span" href="#"><p>商務適用</p></a>
+                      <a href="#">
+                        <p>Microsoft Cloud</p>
+                      </a>
+                      <a href="#">
+                        <p>Microsoft Azure</p>
+                      </a>
+                      <a href="#">
+                        <p>Microsoft Dynamics 365</p>
+                      </a>
+                      <a href="#">
+                        <p>Microsoft 365</p>
+                      </a>
+                      <a href="#">
+                        <p>Microsoft Industry</p>
+                      </a>
+                      <a href="#">
+                        <p>選購商務版</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="span" href="#"><p>Developer & IT</p></a>
+                      <a href="#">
+                        <p>.NET</p>
+                      </a>
+                      <a href="#">
+                        <p>Visual Studio</p>
+                      </a>
+                      <a href="#">
+                        <p>Windows Server</p>
+                      </a>
+                      <a href="#">
+                        <p>開發 Windows 應用程式</p>
+                      </a>
+                      <a href="#">
+                        <p>文件</p>
+                      </a>
+                      <a href="#">
+                        <p>Power Platform</p>
+                      </a>
+                      <a href="#">
+                        <p>Power Apps</p>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="span" href="#">
+                        <p>其他</p>
+                      </a>
+                      <a href="#">
+                        <p>Microsoft Rewards</p>
+                      </a>
+                      <a href="#">
+                        <p>免費下載與安全性</p>
+                      </a>
+                      <a href="#">
+                        <p>教育</p>
+                      </a>
+                      <a href="#">
+                        <p>禮品卡</p>
+                      </a>
+                      <a href="#">
+                        <p>Licensing</p>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="tooltip">
+                <div class="tooltip-inner d-flex magnifying-glass">
+                  <p>搜尋</p>
+                  <a href="#">
+                    <img class="tooltip-img" src="./pics/scope.png" alt="放大鏡" />
+                    <span class="tooltiptext">Extremely cool.com</span>
+                  </a>
+                </div>
+              </div>
+              <div class="tooltip">
+                <div class="tooltip-inner d-flex">
+                  <p>購物車</p>
+                  <a href="#">
+                    <img class="tooltip-img" src="./pics/cart.png" alt="購物車" />
+                    <span class="tooltiptext">0個項目在購物車中</span>
+                  </a>
+                </div>
+              </div>
+              <div class="tooltip">
+                <div class="tooltip-inner d-flex">
+                  <p>登入</p>
+                  <a href="#">
+                    <img class="tooltip-img" src="./pics/login_logo.svg" alt="登入" />
+                    <span class="tooltiptext">Chienniman的帳戶管理員</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div  class="swiper">
+          <div class="swiper-wrapper">
+            <div v-for="pic in swiper"  class="swiper-slide slide slide-lg">
+              <img :src="pic.img_path" :alt="pic.img_alt_text" />
+              <div class="swiper-text">
+                <span>{{pic.span}}</span>
+                <h2>{{pic.name}}</h2>
+                <div class="text">
+                  <p>{{pic.text}}</p>  
+                </div>
+                <div class="more">
+                  <a href="#">
+                    深入了解 >
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-md-text">
+                <div>
+                  <span>{{pic.span}}</span>
+                <div class="h2">
+                  <h2>{{pic.name}}</h2>
+                </div>
+                <div class="text">
+                  <p>{{pic.text}}</p>  
+                </div>
+                <div class="more">
+                  <a href="#">
+                    深入了解 >
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="onestore">
+          <div class="logo_groups d-flex">
+            <a href="#">
+            <div class="logo_wrapper">
+              <div class="img_wrapper">
+                <img src="./pics/onestore_icon/computer.png" alt="電競電腦">
+                <!-- <a href="https://www.flaticon.com/free-icons/simple" title="simple icons">Simple icons created by iconnut - Flaticon</a> -->
+              </div>
+              <div class="discription">
+                電競電腦
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="logo_wrapper">
+              <div class="img_wrapper">
+                <!-- <a href="https://www.flaticon.com/free-icons/ipad" title="ipad icons">Ipad icons created by Freepik - Flaticon</a> -->
+                <img src="./pics/onestore_icon/ipad.png" alt="電競平板">
+              </div>
+              <div class="discription">
+                 電競平板
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="logo_wrapper">
+              <div class="img_wrapper">
+                <!-- <a href="https://www.flaticon.com/free-icons/headset" title="headset icons">Headset icons created by Freepik - Flaticon</a> -->
+                <img src="./pics/onestore_icon/headset.png" alt="電競配件">
+              </div>
+              <div class="discription">
+                電競配件
+              </div>
+            </div>
+          </a>
+          </div>
+          <div class="logo_md_group">
+            <ul>
+              <li>
+                <div>
+                  <a href="#">
+                    <div class="logo">
+                      <div class="logo_img">
+                        <!-- <a href="https://www.flaticon.com/free-icons/simple" title="simple icons">Simple icons created by iconnut - Flaticon</a> -->
+                        <img src="./pics/onestore_icon/computer.png" alt="電競電腦" style="width: 20px ;height:20px;">
+                      </div>
+                      <div class="logo_text">
+                        <p>選擇您的電競電腦</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a href="#">
+                    <div class="logo">
+                      <div class="logo_img">
+                          <!-- <a href="https://www.flaticon.com/free-icons/ipad" title="ipad icons">Ipad icons created by Freepik - Flaticon</a> -->
+                        <img src="./pics/onestore_icon/ipad.png" alt="電競平板" style="width: 20px ;height:20px;">
+                      </div>
+                      <div class="logo_text">
+                        <p>選購電競平板</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <a href="#">
+                    <div class="logo">
+                      <div class="logo_img">
+                        <!-- <a href="https://www.flaticon.com/free-icons/headset" title="headset icons">Headset icons created by Freepik - Flaticon</a> -->
+                        <img src="./pics/onestore_icon/headset.png" alt="電競配件" style="width: 20px ;height:20px;">
+                      </div>
+                      <div class="logo_text">
+                        <p>選擇您的電競配件</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>  
+        </div>
+        <div id="computer_card" class="card_wrapper">
+          <div v-for="card in computer_card" class="card">
+            <div class="card_img">
+              <img :src=card.img_path :alt=card.img_alt_text>
+            </div>
+            <div class="card_body">
+              <span class="yellow">{{card.span}}</span>
+              <div class="card-text">
+                <h2>{{card.name}}</h2>
+                <p>{{card.text}}</p>
+                <a href="#">
+                  {{card.link}}>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id="onedrive">
+          <div>
+            <div  class="microsoft_onedrive_img">
+              <img  :src="img_path"  style="width: 100%;">
+              <div class="microsoft_onedrive_text">
+                <div>
+                  <div>
+                    <h2 class="title">
+                    </h2>
+                  </div>
+                  <div class="text">
+                    <p>
+                      將檔案和相片儲存到 OneDrive，即可隨時隨地從任何裝置存取
+                    </p>
+                  </div>
+                  <div class="link">
+                    <a href="#">
+                      深入了解 >
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </section>
+        <div id="computer_card" class="card_wrapper business_use">
+          <div v-for="card in computer_card2" class="card">
+            <div class="card_img">
+              <img :src=card.img_path :alt=card.img_alt_text>
+            </div>
+            <div class="card_body">
+              <span class="yellow">{{card.span}}</span>
+              <div class="card-text">
+                <h2>{{card.name}}</h2>
+                <p>{{card.text}}</p>
+                <a href="#">
+                  {{card.link}}>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="./js/vue.js"></script>  
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script type="module">
+        var swiper = new Swiper(".swiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+</body>
+</html>
