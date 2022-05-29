@@ -616,6 +616,7 @@ body {
     background: #e6e6e6;
     width: 100%;
     height: 320px;
+    padding: 0 5%;
     top: 397px;
     left: 0;
     display: -webkit-box;
@@ -727,6 +728,12 @@ body {
   #footer .news li {
     text-align: center;
   }
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 16px;
 }
 
 .dropbtn {

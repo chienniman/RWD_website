@@ -121,12 +121,12 @@ const viewmodel=Vue.createApp({
                 },
                 {
                     img_path:'./pics/onestore/onestore2.jpg',
-                    title:'我們經營的每分每秒，都在堅持作對的事',
+                    title:'我們經營的每分每秒，都在堅持做對的事',
                     link:'品牌堅持'
                 },
                 {
                     img_path:'./pics/onestore/onestore3.jpg',
-                    title:'超過20名的電競選手一致推薦，最棒的電競品牌，魔幻電競',
+                    title:'超過20名的電競選手一致推薦，魔幻電競，最棒的電競品牌',
                     link:'前往購買'
                 }
             ],
