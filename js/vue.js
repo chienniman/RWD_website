@@ -146,9 +146,6 @@ const viewmodel=Vue.createApp({
             this.link=arr[arr_rand].link;
         }
     },
-    Created() {
-        
-    },
     mounted() {
         this.get_random_onestore_pic()
     },
