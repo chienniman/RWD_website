@@ -144,7 +144,6 @@ const viewmodel=Vue.createApp({
             this.img_path=arr[arr_rand].img_path;
             this.title=arr[arr_rand].title;
             this.link=arr[arr_rand].link;
-            console.log(this.selected_onestore)
         }
     },
     Created() {
