@@ -165,10 +165,9 @@ html,
       top: 38%!important;
       width: 45px!important;
       height: 45px;
-      background: #e6e6e6;
       border-radius: 20px;
       &:hover{
-        background: white;
+        background: $swiper-color;
       }
     }
     .swiper-button-next::after,.swiper-button-prev::after{

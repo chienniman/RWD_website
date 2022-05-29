@@ -363,21 +363,17 @@
         <section id="onedrive">
           <div>
             <div  class="microsoft_onedrive_img">
-              <img  :src="img_path"  style="width: 100%;">
+              <img class="onedrive_img" :src="img_path" :alt="title" style="width: 100%;">
               <div class="microsoft_onedrive_text">
                 <div>
                   <div>
                     <h2 class="title">
+                      {{title}}
                     </h2>
-                  </div>
-                  <div class="text">
-                    <p>
-                      將檔案和相片儲存到 OneDrive，即可隨時隨地從任何裝置存取
-                    </p>
                   </div>
                   <div class="link">
                     <a href="#">
-                      深入了解 >
+                      {{link}} >
                     </a>
                   </div>
                 </div>
@@ -402,6 +398,181 @@
             </div>
           </div>
         </div>
+        <div id="social_media" class="social_media d-flex">
+          <div>在社群媒體上關注我們</div>
+          <ul class="icons d-flex">
+            <li>
+              <a href="#">
+                <!-- <a href="https://www.flaticon.com/free-icons/instagram" title="instagram icons">Instagram icons created by Pixel perfect - Flaticon</a> -->
+                <img src="./pics/socials/instagram.png" alt="instagram">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Freepik - Flaticon</a> -->
+                <img src="./pics/socials/facebook.png" alt="facebook">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <!-- <a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Pixel perfect - Flaticon</a> -->
+                <img src="./pics/socials/twitter.png" alt="twitter">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <footer id="footer">
+          <ul class="footer_links">
+            <li class="links">
+              <ul class="news">
+                <li class="title">
+                  電競商品
+                </li>
+                <li>
+                  <a href="#">
+                    極限電腦
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競筆電
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競手機
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競耳機
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    超大曲面螢幕
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    微型電競電腦
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="links">
+              <ul class="news">
+                <li class="title">
+                  電競配件
+                </li>
+                <li>
+                  <a href="#">
+                    螢幕保護貼
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競版行動電源
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競滑鼠墊
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電源供應器
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競主機板
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    電競散熱卡
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="links">
+              <ul class="news">
+                <li class="title">
+                  相關服務
+                </li>
+                <li>
+                  <a href="#">
+                    電腦維修
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    手機維修
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    產品註冊
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    虛擬主機
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    聯絡我們
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    維修進度
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="links">
+              <ul class="news">
+                <li class="title">
+                  關於我們
+                </li>
+                <li>
+                  <a href="#">
+                    最新消息
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    企業社會責任
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    徵才資訊
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    投資資訊
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    獎項
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    常見問題集
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </footer>
       </div>
       
     <script src="https://unpkg.com/vue@next"></script>

@@ -366,8 +366,12 @@
     .title{
         font-size: 24px;
         font-weight: 600;
+        color: white;
     }
     .microsoft_onedrive_img{
+        img{
+            max-height: 600px;
+        }
         position: relative;
         @media(max-width:767px){
             padding-bottom: 320px;
@@ -377,6 +381,7 @@
         }
     }
     .microsoft_onedrive_text{
+        color: white;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -385,15 +390,19 @@
             margin: 12px 0;
         }
         .link{
+            margin-top: 30px;
             width: 125px;
             height: 40px;
-            background: #000;
+            background: white;
             @include flex(center,center);
             a{
-                color: white;
+                color: black;
             }
         }
         @media(max-width:767px){
+            .link,.title{
+                color: #000;
+            }
             background: #e6e6e6;
             width: 100%;
             height: 320px;
@@ -405,6 +414,53 @@
                flex-direction: column;
                align-items: center;
            }
+        }
+    }
+}
+#social_media{
+    margin-top: 60px;
+    @include flex(center,center);
+    .icons{
+        li{
+            margin: 0 20px;
+            @media(max-width:425px){
+                margin: 0 10px;
+            }
+        }
+    }
+}
+#footer{
+    background: #f2f2f2;
+    .title{
+        font-weight: 600;
+        font-size: 32px;
+    }
+    margin-top: 80px;
+    @include flex(center,center);
+    .footer_links{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        @media(max-width:1083px){
+            padding: 0 5%;
+        }
+    }
+    .links{
+        width: 25%;
+        @media(max-width:1083px){
+            width: 50%;
+        }
+        @media(max-width:539px){
+            width: 100%;
+            margin-top: 50px;
+        }
+    }
+    .news{
+        li{
+            padding: 10px 5px;
+            @media(max-width:539px){
+                text-align: center;
+            }
         }
     }
 }

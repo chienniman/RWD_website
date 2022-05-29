@@ -558,10 +558,15 @@ body {
 #onedrive .title {
   font-size: 24px;
   font-weight: 600;
+  color: white;
 }
 
 #onedrive .microsoft_onedrive_img {
   position: relative;
+}
+
+#onedrive .microsoft_onedrive_img img {
+  max-height: 600px;
 }
 
 @media (max-width: 767px) {
@@ -574,6 +579,7 @@ body {
 }
 
 #onedrive .microsoft_onedrive_text {
+  color: white;
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -586,9 +592,10 @@ body {
 }
 
 #onedrive .microsoft_onedrive_text .link {
+  margin-top: 30px;
   width: 125px;
   height: 40px;
-  background: #000;
+  background: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -601,7 +608,7 @@ body {
 }
 
 #onedrive .microsoft_onedrive_text .link a {
-  color: white;
+  color: black;
 }
 
 @media (max-width: 767px) {
@@ -621,6 +628,9 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  #onedrive .microsoft_onedrive_text .link, #onedrive .microsoft_onedrive_text .title {
+    color: #000;
+  }
   #onedrive .microsoft_onedrive_text div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -632,6 +642,90 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+#social_media {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#social_media .icons li {
+  margin: 0 20px;
+}
+
+@media (max-width: 425px) {
+  #social_media .icons li {
+    margin: 0 10px;
+  }
+}
+
+#footer {
+  background: #f2f2f2;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footer .title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+#footer .footer_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+@media (max-width: 1083px) {
+  #footer .footer_links {
+    padding: 0 5%;
+  }
+}
+
+#footer .links {
+  width: 25%;
+}
+
+@media (max-width: 1083px) {
+  #footer .links {
+    width: 50%;
+  }
+}
+
+@media (max-width: 539px) {
+  #footer .links {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+#footer .news li {
+  padding: 10px 5px;
+}
+
+@media (max-width: 539px) {
+  #footer .news li {
+    text-align: center;
   }
 }
 
@@ -824,12 +918,11 @@ body {
   top: 38% !important;
   width: 45px !important;
   height: 45px;
-  background: #e6e6e6;
   border-radius: 20px;
 }
 
 .swiper-button-next:hover, .swiper-button-prev:hover {
-  background: white;
+  background: #aef4f7;
 }
 
 .swiper-button-next::after, .swiper-button-prev::after {
