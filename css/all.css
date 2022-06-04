@@ -503,14 +503,6 @@ body {
   }
 }
 
-#computer_card .card:nth-child(2) .card-text {
-  padding-top: 20px;
-}
-
-#computer_card .card:nth-child(4) .card-text {
-  padding-top: 20px;
-}
-
 #computer_card .card_img {
   margin-bottom: 12px;
 }
