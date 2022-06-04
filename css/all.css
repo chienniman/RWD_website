@@ -222,7 +222,7 @@ body {
 }
 
 .swiper .slide img {
-  max-height: 600px;
+  height: 30vw;
   position: relative;
 }
 
@@ -517,6 +517,19 @@ body {
 
 #computer_card .card_img img {
   width: 100%;
+  height: 15vw;
+}
+
+@media (max-width: 1083px) {
+  #computer_card .card_img img {
+    height: 30vw;
+  }
+}
+
+@media (max-width: 539px) {
+  #computer_card .card_img img {
+    height: 50vw;
+  }
 }
 
 #computer_card .card_body h2 {
